@@ -1,0 +1,36 @@
+@-moz-document domain('www.tumblr.com') {
+
+	.js-global-actions .topics,
+	.bird-topbar-etched,
+	.dashboard div[role=navigation],
+	.site-footer,
+	.trends-dialog,
+	.wtf-module.has-content,
+	.trends,
+	.topbar-divider:last-of-type,
+	.topbar-tweet-btn,
+	.pushstate-spinner,
+	.enhanced-media-thumbnails {
+		display: none !important;
+	}
+
+	.wrapper-settings .dashboard div[role=navigation] {
+		display: block !important;
+	}
+
+	.content-main,
+	.dashboard {
+		float: none;
+		width: auto;
+	}
+
+	.dashboard .tweet-content .tweet-box {
+		width: auto;
+	}
+
+	.global-nav-inner .container,
+	.wrapper {
+		width: 522px;
+	}
+
+}
